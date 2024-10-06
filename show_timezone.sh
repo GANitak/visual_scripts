@@ -5,8 +5,8 @@ ORANGE='\033[0;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color/reset
 
-echo -e "${GREEN}Current time in ${ORANGE}UTC+9 ${RED}(Melbourne):${NC}"
-TZ="Melbourne/VIC" date
+echo -e "${GREEN}Current time in ${ORANGE}UTC+11${RED}(AEDT Melbourne):${NC}"
+TZ="Australia/Melbourne" date
 echo -e "${GREEN}Current time in ${ORANGE}UTC-6 ${RED}(Central Time):${NC}"
 TZ="America/Chicago" date
 echo ############## 
